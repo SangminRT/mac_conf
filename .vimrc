@@ -74,7 +74,7 @@ set shiftwidth=4
 set softtabstop=4
 set smarttab
 set mouse=a
-set pastetoggle=<F3>
+set pastetoggle=<Ins>
 " 한글 입력 설정
 set encoding=utf-8
 set fileencodings=utf-8,euc-kr
