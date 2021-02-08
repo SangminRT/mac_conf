@@ -77,7 +77,6 @@ set cindent
 set tabstop=4
 set shiftwidth=4
 set mouse=an
-set pastetoggle=<Ins>
 " 한글 입력 설정
 set encoding=utf-8
 set fileencodings=utf-8,euc-kr

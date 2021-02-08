@@ -79,7 +79,8 @@ set cindent
 set tabstop=4
 set shiftwidth=4
 set mouse=an
-set pastetoggle=<Ins>
+" 붙여넣기 모드
+set pastetoggle=<F2>
 " 한글 입력 설정
 set encoding=utf-8
 set fileencodings=utf-8,euc-kr
@@ -94,9 +95,8 @@ set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
 set ignorecase
 " 일반모드에서 / 검색시 하이라이팅
 set hlsearch
-"set t_ut=
-"======================= 파일 버퍼 간 이동=======================
 
+"======================= 파일 버퍼 간 이동=======================
 " 원하는 파일 버퍼로 이동하기
 " 파일 여러개 동시에 편집 작업하는 경우
 map ,` :ls<CR>
@@ -115,6 +115,7 @@ map ,x :bn!<CR>
 map ,z :bp!<CR>
 " 현재 파일 버퍼 닫음
 map ,w :bw<CR>
+
 "===================== man page 설정 =========================
 
 func! Man()
