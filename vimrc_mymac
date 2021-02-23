@@ -95,6 +95,8 @@ set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
 set ignorecase
 " 일반모드에서 / 검색시 하이라이팅
 set hlsearch
+"jj를 ESC로 맵핑하기
+:imap jj <Esc>
 
 "======================= 파일 버퍼 간 이동=======================
 " 원하는 파일 버퍼로 이동하기
